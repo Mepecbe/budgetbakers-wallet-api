@@ -1,0 +1,6 @@
+node_modules
+.npmrc
+dist
+.vscode
+src/tests
+.npmignore
