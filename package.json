@@ -1,11 +1,11 @@
 {
   "name": "@mepecbe/budgetbakers-wallet-api",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "",
   "license": "ISC",
   "author": "mepecbe",
-  "type": "module",
-  "main": "index.js",
+  "type": "commonjs",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,7 +21,9 @@
   "exports": {
     ".": {
       "import": "./dist/index.js",
-      "types": "./dist/index.d.ts"
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "default": "./dist/index.js"
     }
   }
 }

@@ -56,6 +56,10 @@ export class RecordsApi {
 			object["offset"] = filter.offset;
 		}
 
+		if (filter.accountId){
+			object["accountId"] = filter.accountId;
+		}
+
 		return object;
 	}
 

@@ -18,6 +18,7 @@ export type AccountType =
 export type AccountRecord = {
 	id: string;
 	archived: boolean;
+	name: string;
 	// hex format
 	color: string;
 	createdAt: string;
